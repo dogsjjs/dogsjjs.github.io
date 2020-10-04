@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives: 2020 | Hexo</title>
+  <title>第一篇hexo博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2020/index.html">
+  <meta name="description" content="Thymeleaf自查手册一、快速使用 导入thymeleaf名称空间  1&lt;html lang&#x3D;&quot;en&quot;  xmlns:th&#x3D;&quot;http:&#x2F;&#x2F;www.thymeleaf.org&quot;&gt;   使用thymeleaf语法  123456789101112&lt;!DOCTYPE html&gt;&lt;html lang&#x3D;&quot;en&quot;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第一篇hexo博客">
+<meta property="og:url" content="http://example.com/2020/10/04/my-first-blog/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Thymeleaf自查手册一、快速使用 导入thymeleaf名称空间  1&lt;html lang&#x3D;&quot;en&quot;  xmlns:th&#x3D;&quot;http:&#x2F;&#x2F;www.thymeleaf.org&quot;&gt;   使用thymeleaf语法  123456789101112&lt;!DOCTYPE html&gt;&lt;html lang&#x3D;&quot;en&quot;">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-10-04T02:35:49.000Z">
+<meta property="article:modified_time" content="2020-10-04T02:37:15.562Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -150,76 +154,237 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-my-first-blog" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      第一篇hexo博客
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/04/my-first-blog/" class="archive-article-date">
+
+        
+        <a href="/2020/10/04/my-first-blog/" class="archive-article-date">
   	<time datetime="2020-10-04T02:35:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/04/my-first-blog/">第一篇hexo博客</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Thymeleaf自查手册"><a href="#Thymeleaf自查手册" class="headerlink" title="Thymeleaf自查手册"></a>Thymeleaf自查手册</h1><h2 id="一、快速使用"><a href="#一、快速使用" class="headerlink" title="一、快速使用"></a>一、快速使用</h2><ol>
+<li>导入thymeleaf名称空间</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>  <span class="attr">xmlns:th</span>=<span class="string">&quot;http://www.thymeleaf.org&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
+<ol start="2">
+<li>使用thymeleaf语法</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>  <span class="attr">xmlns:th</span>=<span class="string">&quot;http://www.thymeleaf.org&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>success<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>成功<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--th:text 将div里的文本内容设置为$&#123;&#125;的内容--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">th:text</span>=<span class="string">&quot;$&#123;hello&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
+<ol start="3">
+<li>语法规则</li>
+</ol>
+<p>th:text 改变当前元素的文本内容</p>
+<p>th:任意html属性 可替换原生属性 例如 th:class th:id </p>
+<hr>
+<h2 id="二、表达式"><a href="#二、表达式" class="headerlink" title="二、表达式"></a>二、表达式</h2><p>Simple expressions: (表达式语法)</p>
+<ul>
+<li>Variable Expressions: ${…} 获取变量值 OGNL</li>
+<li>Selection Variable Expressions: *{…} 选择表达式</li>
+<li>Message Expressions: #{…} </li>
+<li>Link URL Expressions: @{…} </li>
+<li>Fragment Expressions: ~{…} </li>
+</ul>
+<p>${…}详解：</p>
+<figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">1、获取对象的属性、调用方法</span></span><br><span class="line"><span class="attr">2、使用内置的基本对象</span></span><br><span class="line"><span class="comment">#ctx : the context object. </span></span><br><span class="line"><span class="comment">#vars: the context variables. </span></span><br><span class="line"><span class="comment">#locale : the context locale. </span></span><br><span class="line"><span class="comment">#request : (only in Web Contexts) the HttpServletRequest object. </span></span><br><span class="line"><span class="comment">#response : (only in Web Contexts) the HttpServletResponse object. </span></span><br><span class="line"><span class="comment">#session : (only in Web Contexts) the HttpSession object. </span></span><br><span class="line"><span class="comment">#servletContext : (only in Web Contexts) the ServletContext object.</span></span><br><span class="line"><span class="attr">例子：$&#123;session.foo&#125;</span></span><br><span class="line"><span class="attr">3、内置的一些工具对象</span></span><br><span class="line"><span class="comment">#execInfo : information about the template being processed. </span></span><br><span class="line"><span class="comment">#messages : methods for obtaining externalized messages inside variables expressions, in the same way as they would be obtained using </span></span><br><span class="line"><span class="comment">#&#123;…&#125; syntax. #uris : methods for escaping parts of URLs/URIs</span></span><br><span class="line"><span class="comment">#conversions : methods for executing the configured conversion service (if any). </span></span><br><span class="line"><span class="comment">#dates : methods for java.util.Date objects: formatting, component extraction, etc. </span></span><br><span class="line"><span class="comment">#calendars : analogous to #dates , but for java.util.Calendar objects. </span></span><br><span class="line"><span class="comment">#numbers : methods for formatting numeric objects. </span></span><br><span class="line"><span class="comment">#strings : methods for String objects: contains, startsWith, prepending/appending, etc. </span></span><br><span class="line"><span class="comment">#objects : methods for objects in general. </span></span><br><span class="line"><span class="comment">#bools : methods for boolean evaluation. </span></span><br><span class="line"><span class="comment">#arrays : methods for arrays. </span></span><br><span class="line"><span class="comment">#lists : methods for lists. </span></span><br><span class="line"><span class="comment">#sets : methods for sets. </span></span><br><span class="line"><span class="comment">#maps : methods for maps. </span></span><br><span class="line"><span class="comment">#aggregates : methods for creating aggregates on arrays or collections. </span></span><br><span class="line"><span class="comment">#ids : methods for dealing with id attributes that might be repeated (for example, as a result of an iteration).</span></span><br></pre></td></tr></table></figure>
+
+<p>*{…}详解：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">和$&#123;&#125;在功能上是一样的</span><br><span class="line">补充：配合th:object</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">th:object</span>=<span class="string">&quot;$&#123;session.user&#125;&quot;</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Name: <span class="tag">&lt;<span class="name">span</span> <span class="attr">th:text</span>=<span class="string">&quot;*&#123;firstName&#125;&quot;</span>&gt;</span>Sebastian<span class="tag">&lt;/<span class="name">span</span>&gt;</span>.<span class="tag">&lt;/<span class="name">p</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Surname: <span class="tag">&lt;<span class="name">span</span> <span class="attr">th:text</span>=<span class="string">&quot;*&#123;lastName&#125;&quot;</span>&gt;</span>Pepper<span class="tag">&lt;/<span class="name">span</span>&gt;</span>.<span class="tag">&lt;/<span class="name">p</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Nationality: <span class="tag">&lt;<span class="name">span</span> <span class="attr">th:text</span>=<span class="string">&quot;*&#123;nationality&#125;&quot;</span>&gt;</span>Saturn<span class="tag">&lt;/<span class="name">span</span>&gt;</span>.<span class="tag">&lt;/<span class="name">p</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>#{…} ：用于获取国际化内容</p>
+<p>@{…} ：定义url链接的</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- Will produce &#x27;http://localhost:8080/gtvg/order/details?orderId=3&#x27; (plus rewriting) --&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;details.html&quot;</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;http://localhost:8080/gtvg/order/details(orderId=$&#123;o.id&#125;)&#125;&quot;</span>&gt;</span>view<span class="tag">&lt;/<span class="name">a</span>&gt;</span> <span class="comment">&lt;!-- Will produce &#x27;/gtvg/order/details?orderId=3&#x27; (plus rewriting) --&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;details.html&quot;</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;/order/details(orderId=$&#123;o.id&#125;)&#125;&quot;</span>&gt;</span>view<span class="tag">&lt;/<span class="name">a</span>&gt;</span> </span><br><span class="line"><span class="comment">&lt;!-- Will produce &#x27;/gtvg/order/3/details&#x27; (plus rewriting) --&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;details.html&quot;</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;/order/&#123;orderId&#125;/details(orderId=$&#123;o.id&#125;)&#125;&quot;</span>&gt;</span>view<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>~{…}:文档片段</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">th:insert</span>=<span class="string">&quot;~&#123;commons :: main&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="三、字面量"><a href="#三、字面量" class="headerlink" title="三、字面量"></a>三、字面量</h2><p>Literals:</p>
+<ul>
+<li><strong>字符串</strong> Text literals: ‘one text’ , ‘Another one!’ ,… </li>
+<li><strong>数字</strong> Number literals: 0 , 34 , 3.0 , 12.3 ,… </li>
+<li><strong>布尔值</strong> Boolean literals: true , false </li>
+<li><strong>空</strong> Null literal: null </li>
+<li><strong>文字标记</strong> Literal tokens: one , sometext , main ,… </li>
+</ul>
+<hr>
+<h2 id="四、文本操作"><a href="#四、文本操作" class="headerlink" title="四、文本操作"></a>四、文本操作</h2><p>Text operations: </p>
+<ul>
+<li><strong>字符串拼接</strong> String concatenation: + </li>
+<li><strong>字符串替换</strong> Literal substitutions: |The name is ${name}| </li>
+</ul>
+<hr>
+<h2 id="五、数学运算"><a href="#五、数学运算" class="headerlink" title="五、数学运算"></a>五、数学运算</h2><p>Arithmetic operations: </p>
+<ul>
+<li><strong>简单运算</strong> Binary operators: + , - , * , / , % </li>
+<li><strong>负号</strong> Minus sign (unary operator): - </li>
+</ul>
+<hr>
+<h2 id="六、布尔运算"><a href="#六、布尔运算" class="headerlink" title="六、布尔运算"></a>六、布尔运算</h2><p>Boolean operations: </p>
+<ul>
+<li><strong>与、或</strong> Binary operators: and , or </li>
+<li><strong>非</strong> Boolean negation (unary operator): ! , not </li>
+</ul>
+<hr>
+<h2 id="七、比较运算"><a href="#七、比较运算" class="headerlink" title="七、比较运算"></a>七、比较运算</h2><p>Comparisons and equality: </p>
+<ul>
+<li><strong>比较</strong> Comparators: &gt; , &lt; , &gt;= , &lt;= ( gt , lt , ge , le ) </li>
+<li><strong>相等判断</strong> Equality operators: == , != ( eq , ne ) </li>
+</ul>
+<hr>
+<h2 id="八、条件运算"><a href="#八、条件运算" class="headerlink" title="八、条件运算"></a>八、条件运算</h2><p>Conditional operators: </p>
+<ul>
+<li>If-then: (if) ? (then) </li>
+<li>If-then-else: (if) ? (then) : (else) </li>
+<li>Default: (value) ?: (defaultvalue) </li>
+</ul>
+<hr>
+<h2 id="九、特殊操作"><a href="#九、特殊操作" class="headerlink" title="九、特殊操作"></a>九、特殊操作</h2><p>Special tokens: </p>
+<ul>
+<li><strong>无操作</strong> No-Operation: _</li>
+</ul>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/10/04/my-first-blog/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/04/hello-world/" class="archive-article-date">
-  	<time datetime="2020-10-04T02:26:37.909Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-04</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/10/04/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/04/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -242,8 +407,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
